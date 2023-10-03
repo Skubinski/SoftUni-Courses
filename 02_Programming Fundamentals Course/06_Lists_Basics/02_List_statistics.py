@@ -3,7 +3,7 @@ positive_numbers = []
 negative_numbers = []
 for line in range(number_of_lines):
     number = int(input())
-    if number > 0:
+    if number >= 0:
         positive_numbers.append(number)
     else:
         negative_numbers.append(number)
